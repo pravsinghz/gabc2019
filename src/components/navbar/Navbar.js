@@ -4,23 +4,29 @@ import './Navbar.scss';
 
 function Navbar(){
   return (
-    <nav className="navbar navbar-default navbar-custom navbar-fixed-top">
+    <nav className="navbar fixed-top navbar-custom navbar-expand-lg">
+
+
+
+
+      {/*<button type="button" className="navbar-toggle"*/}
+      {/*        data-target="#gabc-navbar-collapse-1">*/}
+      {/*  <span className="navbar-toggler-icon"/>*/}
+      {/*</button>*/}
+
+      {/*<div className="navbar-header page-scroll">*/}
+      {/*  */}
+      {/*</div>*/}
+
+
+
 
       <div className="container-fluid">
 
-        <div className="navbar-header page-scroll">
-          <button type="button" className="navbar-toggle" data-toggle="collapse"
-                  data-target="#gabc-navbar-collapse-1">
-            <span className="sr-only">Toggle navigation</span>
-            <span className="icon-bar"></span>
-            <span className="icon-bar"></span>
-            <span className="icon-bar"></span>
-          </button>
-          <a className="navbar-brand" href="index.html">MUGH</a>
-        </div>
+        <a className="navbar-brand" href="index.html">MUGH</a>
 
         <div className="collapse navbar-collapse" id="gabc-navbar-collapse-1">
-          <ul className="nav navbar-nav navbar-right">
+          <ul className="nav navbar-nav">
             <li>
               <a href="#/">Home</a>
             </li>
@@ -41,6 +47,7 @@ function Navbar(){
             </li>
           </ul>
         </div>
+
 
       </div>
     </nav>
