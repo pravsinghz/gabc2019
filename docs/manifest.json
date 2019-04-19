@@ -1,0 +1,12 @@
+{
+  "short_name": "GABC 2019 Hyderabad",
+  "name": "Global Azure Bootcamp 2019 :: Hyderabad",
+  "icons": [
+    {
+      "src": "logo-2019-250x222.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "png"
+    }
+  ],
+  "start_url": "."
+}
