@@ -1,0 +1,105 @@
+[
+  {
+    "order": 1,
+    "sessionTime": "08.30am - 09.20am",
+    "sessionTitle": "Registration",
+    "sessionType": 2
+  },
+  {
+    "order": 2,
+    "sessionTime": "09.30am - 10.30am",
+    "sessionTitle": "TBD",
+    "sessionType": 1,
+    "speakers": [
+      {
+        "name": "Raghuram Korukonda",
+        "photo": "raghuram.png",
+        "title": "Senior Engineer - Cloud Infrastructure",
+        "company": "LinkedIn",
+        "profile": "Raghuram Korukonda is working as a Senior Engineer - Cloud Infrastructure at LinkedIn. He is certified in Microsoft Azure and App Development. He assists clients in cloud architecture and application migrations. He is an expert in deploying efficiently powered applications onto the cloud environment. He spends most of his time between working for BrainScale and contributing to Microsoft Azure as well as other Open Source Communities. He is passionate about Technology and helping people in embracing it to the fullest.",
+        "twitter": "imkraghu",
+        "blog": "http://raghu.space"
+      }
+    ]
+  },
+  {
+    "order": 3,
+    "sessionTime": "10.30am - 11.30am",
+    "sessionTitle": "Azure Governance",
+    "sessionType": 1,
+    "speakers": [
+      {
+        "name": "Viral Jain",
+        "photo": "viral.jpg",
+        "title": "Technical Consultant",
+        "company": "Microsoft",
+        "profile": "",
+        "twitter": "viralJain007",
+        "blog": "http://www.viraljain.com"
+      }
+    ]
+  },
+  {
+    "order": 4,
+    "sessionTime": "11.30am - 11.40am",
+    "sessionTitle": "Break",
+    "sessionType": 2
+  },
+  {
+    "order": 5,
+    "sessionTime": "11.40am - 12.40pm",
+    "sessionTitle": "Leveraging POA with Azure Workbench",
+    "sessionType": 1,
+    "speakers": [
+      {
+        "name": "Thrilok Chowdary Maddipudi",
+        "photo": "thrilok.jpg",
+        "title": "Senior Software Engineer",
+        "company": "Byteridge",
+        "profile": "",
+        "twitter": "",
+        "blog": "https://medium.com/@meetrilok"
+      }
+    ]
+  },
+  {
+    "order": 6,
+    "sessionTime": "12.40pm - 01.20am",
+    "sessionTitle": "Lunch",
+    "sessionType": 2
+  },
+  {
+    "order": 7,
+    "sessionTime": "01.20pm - 02.20pm",
+    "sessionTitle": "Azure Kubernetes Service",
+    "sessionType": 1,
+    "speakers": [
+      {
+        "name": "Shashi Jeevan",
+        "photo": "shashi.jpeg",
+        "title": "Delivery Manager",
+        "company": "TekFriday Processing Solutions",
+        "profile": "Shashi Jeevan is an author, trainer, architect with over two decades of experience in the software industry working in various domains including Finance, Digital Signage, Rich Media Management, etc. He loves to master new technologies and share his learnings. He regularly presents and organizes free technical sessions through the Hyderabad Software Architects meetup group which he founded in 2015.",
+        "twitter": "",
+        "blog": "https://shashijeevan.com"
+      }
+    ]
+  },
+  {
+    "order": 8,
+    "sessionTime": "02.20pm - 03.20pm",
+    "sessionTitle": "Xamarin - Azure Blob Storage & MSAL to authenticate Azure AD Subramanyam Balaraju",
+    "sessionType": 1,
+    "speakers": [
+      {
+        "name": "Subramanyam Balaraju",
+        "photo": "subramanyam.png",
+        "title": "System Analyst",
+        "company": "Intersoft / VServ Solutions",
+        "profile": "Shashi Jeevan is an author, trainer, architect with over two decades of experience in the software industry working in various domains including Finance, Digital Signage, Rich Media Management, etc. He loves to master new technologies and share his learnings. He regularly presents and organizes free technical sessions through the Hyderabad Software Architects meetup group which he founded in 2015.",
+        "twitter": "",
+        "blog": "http://bsubramanyamraju.blogspot.com"
+      }
+    ]
+  }
+]

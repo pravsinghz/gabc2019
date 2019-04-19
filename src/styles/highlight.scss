@@ -1,0 +1,23 @@
+@import "variables";
+
+::-moz-selection {
+  color: white;
+  text-shadow: none;
+  background: $primary;
+}
+
+::selection {
+  color: white;
+  text-shadow: none;
+  background: $primary;
+}
+
+img::selection {
+  color: white;
+  background: transparent;
+}
+
+img::-moz-selection {
+  color: white;
+  background: transparent;
+}

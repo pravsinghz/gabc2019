@@ -1,0 +1,121 @@
+@import "../../styles/variables";
+
+#agenda {
+  background-color: $primary;
+
+  .title {
+    color: #ffffff;
+  }
+
+  .content {
+    color: #ffffff;
+    font-size: 14px;
+
+    a, a:active {
+      text-decoration: none;
+      height: auto;
+      width: auto;
+      overflow: hidden;
+      cursor: pointer;
+      color: #ffffff;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    ul {
+      list-style: none;
+      display: block;
+      padding: 0;
+      margin: 0;
+
+      li {
+        padding: 5px 0;
+        border-bottom: 1px solid #fff;
+        text-align: left;
+        min-height: 50px;
+        overflow: hidden;
+
+        @media only screen and (min-width: 768px) {
+          padding: 5px;
+        }
+
+        &:first-child {
+          border-top: 3px solid #fff;
+        }
+
+        &:last-child {
+          border-bottom: 3px solid #fff;
+        }
+
+        .time-slot1, .time-slot2, .session, .session1, .session2 {
+          position: relative;
+          display: block;
+          float: left;
+        }
+
+        .time-slot1 {
+          margin-right: 2%;
+          width: 35%;
+
+          @media only screen and (min-width: 499px) {
+            width: 28%;
+          }
+        }
+
+        .time-slot2 {
+          width: 100%;
+          padding-bottom: 5px;
+          border-bottom: 0.5px dotted #fff;
+
+          @media only screen and (min-width: 768px) {
+            margin-right: 2%;
+            width: 28%;
+            padding-bottom: 0;
+            border: none;
+          }
+        }
+
+        .session {
+          width: 100%;
+
+          @media only screen and (min-width: 500px) {
+            width: 70%;
+          }
+        }
+
+        .session1, .session2 {
+          width: 100%;
+          margin-top: 5px;
+
+          @media only screen and (min-width: 500px) {
+            width: 49%;
+            margin: 5px 0 0;
+          }
+
+          @media only screen and (min-width: 768px) {
+            width: 34%;
+            margin: 0;
+          }
+        }
+
+        .session1 {
+          padding-right: 1%;
+
+          @media only screen and (max-width: 499px) {
+            border-bottom: 1px dotted #fff;
+          }
+
+          @media only screen and (min-width: 500px) {
+            border-right: 1px dotted #fff;
+          }
+        }
+
+        .session2 {
+          padding-left: 1%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://twitter.com/mughtwits",
+    "name": "fa-twitter"
+  },
+  {
+    "url": "https://www.facebook.com/themugh",
+    "name": "fa-facebook"
+  },
+  {
+    "url": "https://github.com/themugh",
+    "name": "fa-github"
+  },
+  {
+    "url": "http://blog.mugh.net",
+    "name": "fa-rss"
+  }
+]

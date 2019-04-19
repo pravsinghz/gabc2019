@@ -1,0 +1,9 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+body {
+  @include sans-serif;
+  font-size: 20px;
+  color: $gray-dark;
+}
+
