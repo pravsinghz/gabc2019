@@ -25,17 +25,17 @@
   {
     "order": 3,
     "sessionTime": "10.30am - 11.30am",
-    "sessionTitle": "Azure Governance",
+    "sessionTitle": "Xamarin - Azure Blob Storage and MSAL to authenticate Azure AD",
     "sessionType": 1,
     "speakers": [
       {
-        "name": "Viral Jain",
-        "photo": "viral.jpg",
-        "title": "Technical Consultant",
-        "company": "Microsoft",
-        "profile": "",
-        "twitter": "viralJain007",
-        "blog": "http://www.viraljain.com"
+        "name": "Subramanyam Balaraju",
+        "photo": "subramanyam.png",
+        "title": "System Analyst",
+        "company": "Intersoft / VServ Solutions",
+        "profile": "Shashi Jeevan is an author, trainer, architect with over two decades of experience in the software industry working in various domains including Finance, Digital Signage, Rich Media Management, etc. He loves to master new technologies and share his learnings. He regularly presents and organizes free technical sessions through the Hyderabad Software Architects meetup group which he founded in 2015.",
+        "twitter": "",
+        "blog": "http://bsubramanyamraju.blogspot.com"
       }
     ]
   },
@@ -47,18 +47,18 @@
   },
   {
     "order": 5,
+    "sessionTitle": "Containerization of Applications using Docker and Azure Container Registry",
     "sessionTime": "11.40am - 12.40pm",
-    "sessionTitle": "Leveraging POA with Azure Workbench",
     "sessionType": 1,
     "speakers": [
       {
-        "name": "Thrilok Chowdary Maddipudi",
-        "photo": "thrilok.jpg",
-        "title": "Senior Software Engineer",
-        "company": "Byteridge",
+        "name": "Sandeep Soni ",
+        "photo": "sandeep.jpeg",
+        "title": "CEO",
+        "company": "Deccansoft",
         "profile": "",
         "twitter": "",
-        "blog": "https://medium.com/@meetrilok"
+        "blog": ""
       }
     ]
   },
@@ -87,19 +87,48 @@
   },
   {
     "order": 8,
+    "sessionTitle": "Azure Governance",
     "sessionTime": "02.20pm - 03.20pm",
-    "sessionTitle": "Xamarin - Azure Blob Storage & MSAL to authenticate Azure AD Subramanyam Balaraju",
     "sessionType": 1,
     "speakers": [
       {
-        "name": "Subramanyam Balaraju",
-        "photo": "subramanyam.png",
-        "title": "System Analyst",
-        "company": "Intersoft / VServ Solutions",
-        "profile": "Shashi Jeevan is an author, trainer, architect with over two decades of experience in the software industry working in various domains including Finance, Digital Signage, Rich Media Management, etc. He loves to master new technologies and share his learnings. He regularly presents and organizes free technical sessions through the Hyderabad Software Architects meetup group which he founded in 2015.",
-        "twitter": "",
-        "blog": "http://bsubramanyamraju.blogspot.com"
+        "name": "Viral Jain",
+        "photo": "viral.jpg",
+        "title": "Technical Consultant",
+        "company": "Microsoft",
+        "profile": "",
+        "twitter": "viralJain007",
+        "blog": "http://www.viraljain.com"
       }
     ]
+  },
+  {
+    "order": 9,
+    "sessionTime": "03.20am - 03.30am",
+    "sessionTitle": "Break",
+    "sessionType": 2
+  },
+  {
+    "order": 10,
+    "sessionTime": "03.30am - 04.30pm",
+    "sessionTitle": "Leveraging POA with Azure Workbench",
+    "sessionType": 1,
+    "speakers": [
+      {
+        "name": "Thrilok Chowdary Maddipudi",
+        "photo": "thrilok.jpg",
+        "title": "Senior Software Engineer",
+        "company": "Byteridge",
+        "profile": "",
+        "twitter": "",
+        "blog": "https://medium.com/@meetrilok"
+      }
+    ]
+  },
+  {
+    "order": 9,
+    "sessionTime": "04.30am - 05.00am",
+    "sessionTitle": "Closing note and Giveaways",
+    "sessionType": 2
   }
 ]

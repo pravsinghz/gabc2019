@@ -36,11 +36,15 @@ class AgendaLineItem extends Component {
 
   static renderSpeakers(speaker) {
     const { name } = speaker;
-    const link = `speakers.html#${name.replace(' ', '').toLowerCase()}`;
+    // const link = `speakers.html#${name.replace(' ', '').toLowerCase()}`;
+
+    // return (
+    //   <a key={uuidv4()} href={link} target="_self">{name}&nbsp;</a>
+    // );
 
     return (
-      <a key={uuidv4()} href={link} target="_self">{name}&nbsp;</a>
-    )
+      <span key={uuidv4()} href="#">{name}&nbsp;</span>
+    );
   }
 
   render() {
