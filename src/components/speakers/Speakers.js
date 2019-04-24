@@ -25,7 +25,7 @@ class Speakers extends Component {
               <h3 className="title">Speakers</h3>
               <div className="content">
                 <ul className="speakers-list">
-                  {speakersList.map(item => <SpeakerLineItem speaker={item}/>)}
+                  {speakersList.map((item, index) => <SpeakerLineItem key={index} speaker={item}/>)}
                 </ul>
               </div>
             </div>

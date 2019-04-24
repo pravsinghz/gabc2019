@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import uuidv4 from 'uuid/v4';
 
 import './Agenda.scss';
 
@@ -34,7 +33,7 @@ class AgendaLineItem extends Component {
     );
   }
 
-  static renderSpeakers(speaker) {
+  static renderSpeakers(speaker, index) {
     const { name } = speaker;
     // const link = `speakers.html#${name.replace(' ', '').toLowerCase()}`;
 
@@ -43,7 +42,7 @@ class AgendaLineItem extends Component {
     // );
 
     return (
-      <span key={uuidv4()} href="#">{name}&nbsp;</span>
+      <span key={index} href="#">{name}&nbsp;</span>
     );
   }
 
@@ -51,7 +50,7 @@ class AgendaLineItem extends Component {
     const { session } = this.props;
 
     return (
-      <li key={uuidv4()}>
+      <li>
         {session.sessionType === 1 ? AgendaLineItem.renderSessionTypeOne(session) : AgendaLineItem.renderSessionTypeTwo(session)}
       </li>
     );

@@ -16,7 +16,7 @@ class Agenda extends Component {
               <h3 className="title">Agenda</h3>
               <div className="content">
                 <ul>
-                  {agendaList.map(item => <AgendaLineItem session={item}/>)}
+                  {agendaList.map((item, index) => <AgendaLineItem key={index} session={item}/>)}
                 </ul>
               </div>
             </div>
