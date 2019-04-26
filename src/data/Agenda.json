@@ -1,36 +1,19 @@
 [
   {
     "order": 1,
-    "sessionTime": "08.30am - 09.20am",
-    "sessionTitle": "Registration",
+    "sessionTime": "08.30am - 09.30am",
+    "sessionTitle": "Badge Collection",
     "sessionType": 2
   },
   {
     "order": 2,
     "sessionTime": "09.30am - 10.30am",
-    "sessionTitle": "TBD",
-    "sessionType": 1,
-    "speakers": [
-      {
-        "name": "Raghuram Korukonda",
-        "photo": "raghuram.png",
-        "title": "Senior Engineer - Cloud Infrastructure",
-        "company": "LinkedIn",
-        "profile": "Raghuram Korukonda is working as a Senior Engineer - Cloud Infrastructure at LinkedIn. He is certified in Microsoft Azure and App Development. He assists clients in cloud architecture and application migrations. He is an expert in deploying efficiently powered applications onto the cloud environment. He spends most of his time between working for BrainScale and contributing to Microsoft Azure as well as other Open Source Communities. He is passionate about Technology and helping people in embracing it to the fullest.",
-        "twitter": "imkraghu",
-        "blog": "http://raghu.space"
-      }
-    ]
-  },
-  {
-    "order": 3,
-    "sessionTime": "10.30am - 11.30am",
     "sessionTitle": "Xamarin - Azure Blob Storage and MSAL to authenticate Azure AD",
     "sessionType": 1,
     "speakers": [
       {
         "name": "Subramanyam Balaraju",
-        "photo": "subramanyam.png",
+        "photo": "subramanyam.jpg",
         "title": "System Analyst",
         "company": "Intersoft / VServ Solutions",
         "profile": "Shashi Jeevan is an author, trainer, architect with over two decades of experience in the software industry working in various domains including Finance, Digital Signage, Rich Media Management, etc. He loves to master new technologies and share his learnings. He regularly presents and organizes free technical sessions through the Hyderabad Software Architects meetup group which he founded in 2015.",
@@ -40,15 +23,9 @@
     ]
   },
   {
-    "order": 4,
-    "sessionTime": "11.30am - 11.40am",
-    "sessionTitle": "Break",
-    "sessionType": 2
-  },
-  {
-    "order": 5,
+    "order": 3,
+    "sessionTime": "10.30am - 11.30am",
     "sessionTitle": "Containerization of Applications using Docker and Azure Container Registry",
-    "sessionTime": "11.40am - 12.40pm",
     "sessionType": 1,
     "speakers": [
       {
@@ -63,14 +40,37 @@
     ]
   },
   {
+    "order": 4,
+    "sessionTime": "11.30am - 11.40am",
+    "sessionTitle": "Break",
+    "sessionType": 2
+  },
+  {
+    "order": 5,
+    "sessionTitle": "Azure Governance",
+    "sessionTime": "11.40am - 12.40pm",
+    "sessionType": 1,
+    "speakers": [
+      {
+        "name": "Viral Jain",
+        "photo": "viral.jpg",
+        "title": "Technical Consultant",
+        "company": "Microsoft",
+        "profile": "",
+        "twitter": "viralJain007",
+        "blog": "http://www.viraljain.com"
+      }
+    ]
+  },
+  {
     "order": 6,
-    "sessionTime": "12.40pm - 01.20am",
+    "sessionTime": "12.40pm - 01.30pm",
     "sessionTitle": "Lunch",
     "sessionType": 2
   },
   {
     "order": 7,
-    "sessionTime": "01.20pm - 02.20pm",
+    "sessionTime": "01.30pm - 02.30pm",
     "sessionTitle": "Azure Kubernetes Service",
     "sessionType": 1,
     "speakers": [
@@ -87,30 +87,7 @@
   },
   {
     "order": 8,
-    "sessionTitle": "Azure Governance",
-    "sessionTime": "02.20pm - 03.20pm",
-    "sessionType": 1,
-    "speakers": [
-      {
-        "name": "Viral Jain",
-        "photo": "viral.jpg",
-        "title": "Technical Consultant",
-        "company": "Microsoft",
-        "profile": "",
-        "twitter": "viralJain007",
-        "blog": "http://www.viraljain.com"
-      }
-    ]
-  },
-  {
-    "order": 9,
-    "sessionTime": "03.20am - 03.30am",
-    "sessionTitle": "Break",
-    "sessionType": 2
-  },
-  {
-    "order": 10,
-    "sessionTime": "03.30am - 04.30pm",
+    "sessionTime": "02.30pm - 03.30pm",
     "sessionTitle": "Leveraging POA with Azure Workbench",
     "sessionType": 1,
     "speakers": [
@@ -127,7 +104,7 @@
   },
   {
     "order": 9,
-    "sessionTime": "04.30am - 05.00am",
+    "sessionTime": "03.30pm - 04.00pm",
     "sessionTitle": "Closing note and Giveaways",
     "sessionType": 2
   }
